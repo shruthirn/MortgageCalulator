@@ -28,9 +28,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+                "node_modules/bootstrap/dist/js/bootstrap.min.js"
+
+            ]
           },
           "configurations": {
             "production": {
@@ -123,6 +129,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "MortgageCalculator"
+    }
+  },
+  "defaultProject": "MortgageCalculator",
+  "cli": {
+    "analytics": "829bf628-af46-47b8-9862-f19664fe776e"
+  }
 }
